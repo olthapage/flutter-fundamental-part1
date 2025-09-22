@@ -16,3 +16,22 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 ![Screenshot hello_world](images/01.jpeg)
+
+# Praktikum 4-logo
+![Praktikum 4](images/Praktikum4.jpeg)
+
+# Langkah 3 – Scaffold Widget
+Scaffold digunakan untuk membuat kerangka layout Material Design, termasuk AppBar dan FloatingActionButton.
+![Praktikum5_Langkah 3](images/praktikum5_langkah3.jpeg)
+
+# Langkah 4 – Dialog Widget
+Dialog digunakan untuk menampilkan pop-up pesan sederhana kepada user.
+![Praktikum5_Langkah 4](images/praktikum5_langkah4.jpeg)
+
+# Langkah 5 – Input dan Selection (TextField)
+TextField dipakai untuk menerima input teks dari user.
+![Praktikum5_Langkah 5](images/praktikum5_langkah5.jpeg)
+
+# Langkah 6 – Date and Time Pickers
+DatePicker memungkinkan user memilih tanggal dari kalender.
+![Praktikum5_Langkah 6](images/praktikum5_langkah6.jpeg)
