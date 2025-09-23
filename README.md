@@ -35,3 +35,6 @@ TextField dipakai untuk menerima input teks dari user.
 # Langkah 6 – Date and Time Pickers
 DatePicker memungkinkan user memilih tanggal dari kalender.
 ![Praktikum5_Langkah 6](images/praktikum5_langkah6.jpeg)
+
+# Tampilan Akhir
+![Tampilan Akhir](images/TampilanAkhir.jpeg)
