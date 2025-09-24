@@ -22,11 +22,11 @@ samples, guidance on mobile development, and a full API reference.
 
 # Langkah 1 – Cupertino Button dan Loading Bar
 menampilkan contoh tombol CupertinoButton dan indikator loading ala iOS (CupertinoActivityIndicator) agar kita mengenal widget bergaya iOS di Flutter.
-![Praktikum5_Langkah 3](images/praktikum5_langkah1.jpeg)
+![Praktikum5_Langkah 1](images/Praktikum5_Langkah1.jpeg)
 
 # Langkah 2 – Floating Action Button (FAB)
 menampilkan FloatingActionButton berwarna pink dengan ikon tumbs up, yang biasanya dipakai untuk aksi utama dalam sebuah halaman aplikasi Flutter.
-![Praktikum5_Langkah 3](images/praktikum5_langkah2.jpeg)
+![Praktikum5_Langkah 2](images/Praktikum5_Langkah2.jpeg)
 
 # Langkah 3 – Scaffold Widget
 Scaffold digunakan untuk membuat kerangka layout Material Design, termasuk AppBar dan FloatingActionButton.
