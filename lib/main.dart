@@ -1,6 +1,7 @@
 import 'dart:async';
+import 'package:flutter/cupertino.dart'; 
 import 'package:flutter/material.dart';
-import 'basic_widgets/image_widget.dart'; 
+import 'basic_widgets/image_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -131,6 +132,28 @@ class _MyHomePageState extends State<MyHomePage> {
                   onPressed: () => _selectDate(context),
                   child: const Text("Pilih Tanggal"),
                 ),
+
+                const SizedBox(height: 30),
+
+                // 6. Cupertino Button & Loading Indicator
+                CupertinoButton(
+                  child: const Text("Contoh Cupertino Button"),
+                  onPressed: () {},
+                ),
+                const CupertinoActivityIndicator(),
+
+                const SizedBox(height: 30),
+
+                // 7. FAB Tambahan 
+                FloatingActionButton(
+                  onPressed: () {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      const SnackBar(content: Text("FAB Pink ditekan!")),
+                    );
+                  },
+                  backgroundColor: Colors.pink,
+                  child: const Icon(Icons.thumb_up),
+                ),
               ],
             ),
           ),
@@ -139,6 +162,7 @@ class _MyHomePageState extends State<MyHomePage> {
       bottomNavigationBar: BottomAppBar(
         child: Container(height: 50.0, color: Colors.deepPurple.shade100),
       ),
+      // FAB utama counter
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment Counter',
